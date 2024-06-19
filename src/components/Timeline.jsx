@@ -46,7 +46,7 @@ window.addEventListener('resize',()=>{
             title: "Day 1: Let The Hackthon Begin",
             description: "",
             table: [
-              { time: "9:30am - 12:30pm", event: "Pre-hackathon Speaker session" },
+              { time: "9:30am - 12:30pm", event: "Hackthon-Starts" },
               { time: "4:00pm", event: "Ribbon Cutting and Address" },
               { time: "6:00pm", event: "Hackathon Begins" },
             ],
