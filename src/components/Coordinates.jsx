@@ -9,6 +9,10 @@ import Poorvi from '../assets/Coordinates/Poorvi.jpg'
 import Suhail from '../assets/Coordinates/Suhail.jpg'
 import Prajwal from '../assets/Coordinates/Prajwal.jpg'
 import Shravana from '../assets/Coordinates/Shravana.jpg'
+import Pooja from '../assets/Coordinates/Pooja.jpg'
+import Skanda from '../assets/Coordinates/Skanda.jpg'
+import Srujan from '../assets/Coordinates/Srujan.jpg'
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -35,7 +39,7 @@ const collection = [
     Name1: 'SHREYANK',
     Photo1: Shreyank,
     Name2: 'Skanda',
-    Photo2: img,
+    Photo2: Skanda,
   },
   {
     id: 4,
@@ -51,7 +55,7 @@ const collection = [
     Name1: 'SAHANA M',
     Photo1: Sahana,
     Name2: 'POOJA P',
-    Photo2: img,
+    Photo2: Pooja,
   },
   {
     id: 6,
@@ -59,7 +63,7 @@ const collection = [
     Name1: 'DEEPAK D',
     Photo1: Deepak,
     Name2: 'SRUJAN KS',
-    Photo2: img,
+    Photo2: Srujan,
   },
 ];
 
