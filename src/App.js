@@ -14,6 +14,7 @@ import Contact from './components/Contact';
 import { Element } from 'react-scroll'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Prizes from './components/Prizes';
+import Glimpse from './components/Glimpse';
 
 function App() {
     return (
@@ -38,6 +39,7 @@ function App() {
                 <About />
             </Element>
             <Coordinates/>
+            <Glimpse />
             <Element name='contact'>
               <Contact />
             </Element>

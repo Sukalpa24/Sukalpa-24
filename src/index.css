@@ -254,7 +254,7 @@ body{
   box-shadow: 0px 0px 10px black;
 }
 .shd_about{
-  /* box-shadow: 0px 0px 50px 40px black; */
+  box-shadow: 0px 0px 50px 40px rgb(18, 18, 18);
 }
 .timebgg{
   background: url('./assets/Backgrounds/bg-about.png');

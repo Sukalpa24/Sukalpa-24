@@ -46,8 +46,8 @@ window.addEventListener('resize',()=>{
             title: "Day 1: Let The Hackthon Begin",
             description: "",
             table: [
-              { time: "9:30am - 12:30pm", event: "Hackthon-Starts" },
-              { time: "4:00pm", event: "Ribbon Cutting and Addressing" },
+              { time: "10:00 am", event: "Hackthon-Starts" },
+              // { time: "4:00pm", event: "Ribbon Cutting and Addressing" },
               // { time: "6:00pm", event: "Hackathon Begins" },
             ],
             color: "bg-red-600",
@@ -82,7 +82,10 @@ window.addEventListener('resize',()=>{
             title: "Day 2: Code Collab",
             description: "",
             table: [
-              { time: "10:00am - 11:00am", event: "Collabarate with your teammate" },
+              { time: "10:00am - 10:30am", event: "Level 1 : What this...?" },
+              {time:"11:00 am - 11:30 am",event:"Level 2 : Dark logic " },
+              {time:"12:00 pm - 12:30 pm",event:"Level 3 : Unify" },
+              {time:"2:00 pm - 3:15 pm",event:"Level 4 : TechTrophy" },
             ],
             color: "bg-green-600",
             icon: "✌️"
