@@ -37,9 +37,9 @@ function Navbar() {
     <>
     <div className={`sticky top-0 bg-black bg-opacity-90 z-30 overflow-x-hidden shadowclass h-16 flex flex-row text-center ${isMobile?'w-full':'w-full'} ${isMobile?'hidden':'block'} ${isdark?' text-white':'bg-white text-black border border-red-600'}     `}>
       <div className='flex w-3/12 flex-row justify-around '> 
-        <h2 className={` mt-3 ${isdark?'text-white':'text-black'} font-bold first-letter:text-[#49e244] text-3xl`} ><a href="#">SUKALPA</a> </h2>
+        <h2 className={` mt-3 ${isdark?'text-white':'text-black'} font-bold  text-3xl`} ><a href="#">Sukalpa</a> </h2>
       </div>
-
+      {/* first-letter:text-[#49e244] */}
       <ul className={`flex w-8/12 ml-auto mt-5 items-center flex-row justify-around h-2/6 font-medium  `}>
         <li  data-aos-delay={100} className='text-gray-200 cursor-pointer text-lg underline-animation'> <Link smooth to='home'>Home</Link> </li>
         <li  data-aos-delay={200} className=' cursor-pointer text-lg underline-animation'><Link smooth  to='events'>Events</Link></li>
