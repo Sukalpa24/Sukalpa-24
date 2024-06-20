@@ -41,7 +41,10 @@ function App() {
             </Element>
             </>
         } />
+        
+       
                 <Route path="/eventpage/:id" element={<Eventpage/>}/>
+                <Route path="events" element={<Events/>}/>
                 <Route path="*" element={<Error/>}/>
 
             </Routes>

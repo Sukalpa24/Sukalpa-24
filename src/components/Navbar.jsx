@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+
 import { IoIosContact } from "react-icons/io";
 import {Link } from 'react-scroll'
+import { useNavigate } from 'react-router-dom';
 
 
 function Navbar() {
@@ -10,6 +12,8 @@ function Navbar() {
   const [isMobile , setisMobile] = useState(false)
   const [handlenavbar , sethandlenavbar] = useState(false)
   const[isdark,setisdark] = useState(true)
+
+  const navigate = useNavigate()
 
     useEffect(()=>{
         AOS.init({duration:2000})
@@ -28,6 +32,10 @@ function Navbar() {
           setisMobile(false)
         }
     }
+    const handlesubmit = (e) =>{
+      e.preventDefault()
+      navigate('/')
+    } 
 
     const handleDropdownToggle = () =>{
        sethandlenavbar(!handlenavbar)
@@ -37,12 +45,12 @@ function Navbar() {
     <>
     <div className={`sticky top-0 bg-black bg-opacity-90 z-30 overflow-x-hidden shadowclass h-16 flex flex-row text-center ${isMobile?'w-full':'w-full'} ${isMobile?'hidden':'block'} ${isdark?' text-white':'bg-white text-black border border-red-600'}     `}>
       <div className='flex w-3/12 flex-row justify-around '> 
-        <h2 className={` mt-3 ${isdark?'text-white':'text-black'} font-bold  text-3xl`} ><a href="#">Sukalpa</a> </h2>
+        <h2 className={` mt-3 ${isdark?'text-white':'text-black'} first-letter:text-[#49e244]  font-bold  text-3xl`} ><a href="#">Sukalpa</a> </h2>
       </div>
       {/* first-letter:text-[#49e244] */}
       <ul className={`flex w-8/12 ml-auto mt-5 items-center flex-row justify-around h-2/6 font-medium  `}>
-        <li  data-aos-delay={100} className='text-gray-200 cursor-pointer text-lg underline-animation'> <Link smooth to='home'>Home</Link> </li>
-        <li  data-aos-delay={200} className=' cursor-pointer text-lg underline-animation'><Link smooth  to='events'>Events</Link></li>
+        <li  data-aos-delay={100} className='text-gray-200  cursor-pointer text-lg underline-animation'> <Link  onClick={handlesubmit} smooth to='home'>Home</Link> </li>
+        <li  data-aos-delay={200} className=' cursor-pointer text-lg underline-animation'><Link smooth   to='events'>Events</Link></li>
         <li  data-aos-delay={300} className=' cursor-pointer text-lg underline-animation'><Link smooth  to='timeline'>Timeline</Link></li>
         <li  data-aos-delay={400} className=' cursor-pointer text-lg underline-animation'><Link smooth to='about'>About</Link></li>
         <li  data-aos-delay={500} className=' cursor-pointer text-lg underline-animation'><Link smooth to='contact'>Contact</Link></li>

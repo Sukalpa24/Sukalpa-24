@@ -34,7 +34,7 @@ window.addEventListener('resize',()=>{
   return (
     <div className="Home-background h-screen timebgg flex flex-col items-center justify-center text-white relative ">
   <div className="text-center ">
-  <p data-aos="fade-in" data-aos-delay={200} className={` text-lg ${isMobile?'mt-5':'-mt-10'} sm:text-2xl text-[#49e244] `}>NATIONAL LEVEL TECHNICAL FEST</p>
+  <p data-aos="fade-in" data-aos-delay={200} className={` text-lg ${isMobile?'mt-5':'-mt-10'} sm:text-2xl text-[#49e244] `}>STATE LEVEL TECHNICAL FEST</p>
     <h1 data-aos="fade-in" className={` ${isMobile?'text-5xl':'text-7xl'} font-bold mt-3 `}>&lt; SUKALPA-24 /&gt;</h1>
     <div className="mt-5">
       <p className="text-lg sm:text-xl mb-4 font-semibold">Powered by</p>
