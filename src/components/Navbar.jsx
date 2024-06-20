@@ -65,7 +65,7 @@ function Navbar() {
      
     <div  className={`dropdown-content sticky  rounded-b-2xl ${handlenavbar ?'block':'hidden'} text-white bg-opacity-90 bg-black`}>
       <ul className=' font-bold text-center  p-2 '>
-      <li className='hover:text-white cursor-pointer   rounded-md px-2 py-1 mt-1 transition duration-[0.1s] ease-in-out transform hover:-translate-y-1 hover:shadow-md hover:shadow-[#49e244] underline'><Link smooth to='home'>Home</Link>  </li>
+      <li className='hover:text-white cursor-pointer   rounded-md px-2 py-1 mt-1 transition duration-[0.1s] ease-in-out transform hover:-translate-y-1 hover:shadow-md hover:shadow-[#49e244] underline'><Link onClick={handlesubmit} smooth to='home'>Home</Link>  </li>
       <Link smooth to='events'><li className='hover:text-white cursor-pointer border border-gray-600 rounded-md px-2 py-1 mt-1.5 transition duration-[0.1s] ease-in-out transform hover:-translate-y-1 hover:shadow-md hover:shadow-[#49e244]'>Events</li></Link>
       <Link smooth to='timeline'><li className='hover:text-white cursor-pointer border border-gray-600 rounded-md px-2 py-1 mt-1.5 transition duration-[0.1s] ease-in-out transform hover:-translate-y-1 hover:shadow-md hover:shadow-[#49e244]'>Timeline</li></Link>
       <Link smooth to='about'><li className='hover:text-white cursor-pointer border border-gray-600 rounded-md px-2 py-1 mt-1.5 transition duration-[0.1s] ease-in-out transform hover:-translate-y-1 hover:shadow-md hover:shadow-[#49e244]'>About</li></Link>
