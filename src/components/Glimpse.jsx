@@ -65,7 +65,7 @@ const checkmobile =() =>{
       <div
         className="flex space-x-4 rounded-lg p-5 shadow-inner shadow-black"
         ref={galleryRef}
-        style={{ whiteSpace: 'nowrap', overflowX: 'hidden' }}
+        style={{ whiteSpace:'nowrap', overflowX: 'hidden' }}
       >
         {images.map((src, index) => (
           <img

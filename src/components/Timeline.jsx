@@ -37,9 +37,15 @@ window.addEventListener('resize',()=>{
           {
             date: "21th June 2024",
             title: "Registrations begin",
-            description: "Explore the exciting world of technology and innovation. Unleash your creative potential and build something extraordinary. Join us on July 15th and 16th for a hackathon like no other!",
+            description: "Explore the exciting world of technology and innovation. Unleash your creative potential and build something extraordinary. Join us on July 1st and 2nd for a hackathon like no other!",
             color: "bg-purple-600",
             icon: "📅"
+          },{
+            date:"1st July 2024",
+            title:"Inaguration of Event",
+            description:"",
+            color:"bg-purple-600",
+            icon:"🪔"
           },
           {
             date: "01 July 2024",
@@ -47,8 +53,6 @@ window.addEventListener('resize',()=>{
             description: "",
             table: [
               { time: "10:00 am", event: "Hackthon-Starts" },
-              // { time: "4:00pm", event: "Ribbon Cutting and Addressing" },
-              // { time: "6:00pm", event: "Hackathon Begins" },
             ],
             color: "bg-red-600",
             icon: "💻"
@@ -71,8 +75,8 @@ window.addEventListener('resize',()=>{
             title: "Day 1: E-Sports",
             description: "Code Beyond Limits: Innovate, Create, Elevate , Emphasize innovation in coding.",
             table: [
-              { time: "2:00pm - 3:30pm", event: "BGMI" },
-              { time: "04:00pm - 05:30", event: "Free fire" },
+              { time: "12:00 pm - 05:00 pm", event: "BGMI" },
+              { time: "12:30 pm - 03:30", event: "Free fire" },
             ],
             color: "bg-red-600",
             icon:"🎮"
@@ -82,10 +86,9 @@ window.addEventListener('resize',()=>{
             title: "Day 2: Code Collab",
             description: "",
             table: [
-              { time: "10:00am - 10:30am", event: "Level 1 : What this...?" },
-              {time:"11:00 am - 11:30 am",event:"Level 2 : Dark logic " },
-              {time:"12:00 pm - 12:30 pm",event:"Level 3 : Unify" },
-              {time:"2:00 pm - 3:15 pm",event:"Level 4 : TechTrophy" },
+              {time:"09:30 am - 10:00 am",event:"Level 1 : Dark logic " },
+              {time:"10:30 pm - 11:00 pm",event:"Level 2 : Unify" },
+              {time:"11:30 pm - 12:30 pm",event:"Level 3 : TechTrophy" },
             ],
             color: "bg-green-600",
             icon: "✌️"
@@ -95,7 +98,7 @@ window.addEventListener('resize',()=>{
             title: "Day 2: Ideathon ",
             description: "",
             table: [
-              { time: "11:00am - 2:00pm", event: "Pitch on New world" },
+              { time: "10:00am - 1:00pm", event: "Pitch on New world" },
             ],
             color: "bg-green-600",
             icon: "💡"
@@ -105,7 +108,7 @@ window.addEventListener('resize',()=>{
             title: "Day 2: Engineers Eye",
             description: "",
             table: [
-              { time: "02:00pm - 05:00pm", event: "Collabarate with your teammate" },
+              { time: "12:00pm - 04:00pm", event: "Collabarate with your teammate" },
             ],
             color: "bg-green-600",
             icon: "👁️"

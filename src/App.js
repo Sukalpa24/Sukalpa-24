@@ -39,7 +39,7 @@ function App() {
                 <About />
             </Element>
             <Coordinates/>
-            <Glimpse />
+            {/* <Glimpse /> */}
             <Element name='contact'>
               <Contact />
             </Element>
