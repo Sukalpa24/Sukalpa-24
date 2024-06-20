@@ -37,7 +37,7 @@ window.addEventListener('resize',()=>{
       <p className={` font-mono ${isMobile?'text-center p-3 mt-6':'text-start   p-10 w-8/12`'} text-md mx-auto`} >
       The department, established in 2001 with an intake of 60 students, is equipped with necessary infrastructure and laboratory facilities. It strives for excellence in student performance, teacher-student relationships, quality education, research motivation, and instilling human qualities. Laboratories cover areas like Computing, Systems Programming, Networking, and more. The active Forum EXOTIC supports student development through technical workshops and encourages extracurricular activities. Extensive placement training enhances employability. Faculty are engaged in research, and students consistently achieve excellent results, with some becoming university toppers. Alumni work in reputed multinational companies in application development and research.
             </p>
-            <h2 className=" font-mono text-2xl ">SUKALPA</h2>
+            <h2 className=" font-semibold text-2xl ">SUKALPA</h2>
             <p className={` font-mono ${isMobile?'text-center p-3 mt-6':'text-start   p-10 w-8/12`'} text-md mx-auto`}>Sukalpa, an annual event, attracts over 500 participants with a mix of technical and non-technical games, offering exciting prizes. Participants compete in coding challenges, robotics contests, quizzes, and creative arts, fostering innovation and collaboration. It provides a platform for students and professionals to showcase skills, learn, and network, reflecting the community's passion and organizers' dedication.</p>
     </div>
   </div>

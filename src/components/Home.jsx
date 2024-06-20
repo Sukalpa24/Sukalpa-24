@@ -47,7 +47,7 @@ window.addEventListener('resize',()=>{
         </div>
       </div>
       <div data-aos="fade-in" className={` ${isMobile?'':'-mt-5'}  p-10`}>
-        <h3 data-aos="zoom-in" className={`font-mono  text-xl mb-5`}>See you at GMU on 15-16 July (⁠^⁠o⁠^⁠)⁠</h3>
+        <h3 data-aos="zoom-in" className={`font-mono  text-xl mb-5`}>See you at GMU on 1st and 2nd of July⁠</h3>
         <p className="text-lg sm:text-xl mb-2">In Collaboration with</p>
         <div className="flex justify-center space-x-8">
           <img src="/path-to-your-google-logo.png" alt="Google Developer " className="h-12 sm:h-16" />

@@ -42,19 +42,19 @@ window.addEventListener('resize',()=>{
             icon: "📅"
           },
           {
-            date: "15th July 2024",
+            date: "01 July 2024",
             title: "Day 1: Let The Hackthon Begin",
             description: "",
             table: [
               { time: "9:30am - 12:30pm", event: "Hackthon-Starts" },
-              { time: "4:00pm", event: "Ribbon Cutting and Address" },
-              { time: "6:00pm", event: "Hackathon Begins" },
+              { time: "4:00pm", event: "Ribbon Cutting and Addressing" },
+              // { time: "6:00pm", event: "Hackathon Begins" },
             ],
             color: "bg-red-600",
             icon: "💻"
           },
           {
-            date: "15th July 2024",
+            date: "01 July 2024",
             title: "Day 1: Code Clash",
             description: "Where the Best Coders Compete for Glory",
             table: [
@@ -67,9 +67,9 @@ window.addEventListener('resize',()=>{
             icon: "🏆"
           },
           {
-            date: "15th July 2024",
+            date: "01 July 2024",
             title: "Day 1: E-Sports",
-            description: "Code Beyond Limits: Innovate, Create, Elevate , Emphasize innovation in coding._",
+            description: "Code Beyond Limits: Innovate, Create, Elevate , Emphasize innovation in coding.",
             table: [
               { time: "2:00pm - 3:30pm", event: "BGMI" },
               { time: "04:00pm - 05:30", event: "Free fire" },
@@ -78,8 +78,8 @@ window.addEventListener('resize',()=>{
             icon:"🎮"
         },
           {
-            date: "16th July 2024",
-            title: "Day 2: Code Colab",
+            date: "02 July 2024",
+            title: "Day 2: Code Collab",
             description: "",
             table: [
               { time: "10:00am - 11:00am", event: "Collabarate with your teammate" },
@@ -88,7 +88,7 @@ window.addEventListener('resize',()=>{
             icon: "✌️"
           },
           {
-            date: "16th July 2024",
+            date: "02 July 2024",
             title: "Day 2: Ideathon ",
             description: "",
             table: [
@@ -98,7 +98,7 @@ window.addEventListener('resize',()=>{
             icon: "💡"
           },
           {
-            date: "16th July 2024",
+            date: "02 July 2024",
             title: "Day 2: Engineers Eye",
             description: "",
             table: [
