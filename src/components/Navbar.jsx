@@ -59,7 +59,7 @@ function Navbar() {
      
     <div className={`fixed top-0 z-20 h-16 bg-black bg-opacity-90  w-full  ${isMobile ?'block':'hidden'}  `} >
       <div className='flex flex-row justify-between px-6 items-center'>
-      <h2 className='text-white text-2xl font-bold ml-2 first-letter:text-[#49e244] mt-3'>SUKALPA</h2>
+      <h2 className='text-white text-2xl font-bold ml-2  mt-3'>Sukalpa</h2>
       <button className="dropbtn text-white text-3xl mr-2  mt-3" onClick={handleDropdownToggle}>{handlenavbar?'✕':'☰'}</button>
     </div>
      
