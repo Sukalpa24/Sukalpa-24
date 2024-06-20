@@ -6,6 +6,7 @@ import Prathik from '../assets/Coordinates/Prathik.jpg'
 import Sushma from '../assets/Coordinates/Sushma.jpg'
 import Raksha from '../assets/Coordinates/Raksha.jpg'
 import Imran from  '../assets/Coordinates/Imran.jpg'
+import Nasreen from  '../assets/Coordinates/Nasreentaj.jpg'
 
 const Team = () => {
   
@@ -18,7 +19,7 @@ const Team = () => {
     {
       name: 'Nasreen Taj',
       role: 'Assistant Professor, ISE Dept',
-      image: 'https://via.placeholder.com/150',
+      image: Nasreen,
     },
   ];
 

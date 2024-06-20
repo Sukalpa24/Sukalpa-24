@@ -39,7 +39,7 @@ window.addEventListener('resize',()=>{
       <div className= "  bg-gray-800  p-8 rounded-lg shadow-lg text-white">
         <div className="mb-8">
           <div data-aos="fade-in" data-aos-delay={200} className="text-2xl font-semibold mb-4">GRAND PRIZE POOL OF</div>
-          <div data-aos="zoom-in" className={`${isMobile?'text-6xl font-bold':''}text-9xl font-bold text-green-500`}>₹ 50,000</div>
+          <div data-aos="zoom-in" className={`${isMobile?'text-6xl font-bold':''}text-9xl font-bold text-green-500`}>₹ 30,000 </div>
         </div>
       </div>
     </div>

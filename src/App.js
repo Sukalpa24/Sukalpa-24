@@ -13,6 +13,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import { Element } from 'react-scroll'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Prizes from './components/Prizes';
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
             </Element>
             <Element name='events'>
                 <Events />
+                <Prizes/>
             </Element>
             <Element name="timeline">
                 <Timeline />
