@@ -66,9 +66,9 @@ window.addEventListener('resize',()=>{
             description: "Where the Best Coders Compete for Glory",
             table: [
               { time: "11:00am - 11:30am", event: "First Round -> Quiz-bit" },
-              { time: "12:45pm - 01:30", event: "Second Round -> Reverse Coding" },
+              { time: "12:45pm - 01:30pm", event: "Second Round -> Reverse Coding" },
               { time: "2:30pm - 3:30pm", event: "Third Round -> Fix-it Frenzy" },
-              { time: "04:00pm - 05:30", event: "Final Round -> DSA Duel" },
+              { time: "04:00pm - 05:30pm", event: "Final Round -> DSA Duel" },
             ],
             color: "bg-green-600",
             icon: "🏆"
@@ -79,29 +79,29 @@ window.addEventListener('resize',()=>{
             description: "Sprint to victory.",
             table: [
               { time: "12:00 pm - 05:00 pm", event: "BGMI" },
-              { time: "12:30 pm - 03:30", event: "Free fire" },
+              { time: "12:30 pm - 03:30pm", event: "Free fire" },
             ],
             color: "bg-red-600",
             icon:"🎮"
         },
           {
             date: "02 July 2024",
-            title: "Day 2: Code Collab",
+            title: "Day 2: Tech Maze",
             description: "An exciting race to the top.",
             table: [
               {time:"09:30 am - 10:00 am",event:"Level 1 : Dark logic " },
-              {time:"10:30 pm - 11:00 pm",event:"Level 2 : Unify" },
-              {time:"11:30 pm - 12:30 pm",event:"Level 3 : TechTrophy" },
+              {time:"10:30 am - 11:00 am",event:"Level 2 : Unify" },
+              {time:"11:30 am - 12:30 pm",event:"Level 3 : CodeHunt" },
             ],
             color: "bg-green-600",
             icon: "✌️"
           },
           {
             date: "02 July 2024",
-            title: "Day 2: Ideathon ",
+            title: "Day 2: Idea Tank",
             description: "A battle for the innovative spirits.",
             table: [
-              { time: "10:00am - 1:00pm", event: "Pitch on New world" },
+              { time: "10:00am - 2:00pm", event: "Pitch on New world" },
             ],
             color: "bg-green-600",
             icon: "💡"

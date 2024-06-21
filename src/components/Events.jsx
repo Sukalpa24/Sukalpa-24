@@ -66,14 +66,13 @@ const data = [
            img: hack,
            description: "Ideas to Impact: Ignite, Innovate, Inspire , Journey from ideas to solutions." ,
            Rules : [
-            "Each team consists of two members",
-            // "Registration Fee: 150 per team",
+            "Each team consists of two members.",
             "Event consists of 2 rounds.",
-            "Round 1- Idea Presentation. ",
+            "Round 1 -> Idea Presentation. ",
             "Present your own ideas related to a field of your interest.",
-           " Time Duration: 6+2 mins.",
+           "Time Duration: 6+2 mins.",
             "Teams which are qualified in round 1 will be permitted to round 2.",
-          "  Round 2- Pitch Pool.",
+            "Round 2 -> Pitch Pool.",
             "Selected teams will be given a on spot problem statement, participants should find solutions and present their ideas.",
            "Students from any year are eligible to participate.",
            "Participation certificates will be provided.",
@@ -94,25 +93,19 @@ const data = [
            description: "Emphasizes collaboration and elevating the coding experience through teamwork.",
            Rules : [ 
               "Each team consists of two members.",
-              "Entrance fee is 100 rupees.",
+              // "Entrance fee is 100 rupees.",
               "Systems will be provided.",
-              "The event consists of three rounds.",
+              "The event consists of three rounds with elimination after each round.",
               "Event Co-ordinatiors decision is final.",
-
               "Round One: Dark logic .",
-
               "Duration: 30 minutes .",
               "Hide and seek with code ",
               "Only C language is allowed.",
-              ,
               "Round Two: Unify.",
-
               "C language is allowed .",
               "Duration is 30 minutes.",
               "strength in team work .",
-
               "Round Three: Code Hunt.",
-
               "Decode the error field codes with pinch of code hunt.",
               "⁠Showcase yourself through your talent.",
               "Duration: 1 hour.",
@@ -133,7 +126,6 @@ const data = [
             Rules : [
                 "Each team consists of two members.",
                 "Mobiles and Electronic gadgets are not allowed.",
-                "Participation certificates will be provided.",
                 "The event consists of four rounds with eliminations after each round.",
                 "Level-1: Logo lookup.",
                 "Level-2: Tricky Trivia -> Identify the technology, personality, Name by tagline.",
@@ -159,7 +151,7 @@ const data = [
 " Team Type: Squad",
 " Map: All maps should be downloaded.",
 " Hacks and Cheats are Prohibited.",
-" Player Eligibility: Players must be pursuing an engineering degree and must provide their college USN and college details.",
+" Player Eligibility: Player must have Minimum Level of 35",
 " Disqualification: A player using hacks will lead to team disqualification.",
 " Refunds: No refunds will be provided for disqualified teams or teams that quit in the middle of a match.",
 " Support: Network and other support are not provided by the host.",

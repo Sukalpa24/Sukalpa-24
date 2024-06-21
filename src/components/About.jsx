@@ -4,35 +4,39 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Sunil_kumar from '../assets/Governs/Sunil_kumar.jpg'
 import Maheshappa from '../assets/Governs/MAheshappa.jpg'
-import VJS from '../assets/Governs/VJS.jpg'
+// import VJS from '../assets/Governs/VJS.jpg'
 import Shankapal from '../assets/Governs/Shankapal.jpg'
 import { div } from 'three/examples/jsm/nodes/Nodes.js';
+import Principal from '../assets/Governs/Principal.jpg'
 
 const governing = [
   {
     id: 1,
-    name: "Dr. Veeragangadhara Swamy T.M",
-    image : VJS, 
-    resignation :"HOD, ISE Department",
+    name: "Dr. S.R. Shankapal",
+    image : Shankapal, 
+    resignation :"Vice Chancellor, GMU",
   },
   {
     id: 2,
-    name: "Dr. Sunil Kumar B.S",
-    image : Sunil_kumar, 
-    resignation :"Registrar, GMU.",
-  },
-  {
-    id: 3,
     name: "Dr. H.D Maheshappa ",
     image : Maheshappa, 
     resignation :"Pro-Vice Chancellor, GMU.",
   },
   {
+    id: 3,
+    name: "Dr. Sunil Kumar B.S",
+    image : Sunil_kumar, 
+    resignation :"Registrar, GMU.",
+  },
+  {
     id: 4,
-    name: "Dr. S.R. Shankapal",
-    image : Shankapal, 
-    resignation :"Vice Chancellor, GMU",
-  }
+    name: "Dr. Sanjay Pande M.B",
+    image : Principal, 
+    resignation :"Principal of GMIT",
+  },
+  
+  
+  
 
 ]
 

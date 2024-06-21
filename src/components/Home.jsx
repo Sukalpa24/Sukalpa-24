@@ -6,6 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Tshirt from '../assets/Tshirt.jpg';
 import Combo from '../assets/Backgrounds/WhatsApp_Image_2024-06-21_at_11.10.43_ca0acab6-removebg-preview.png'
+import BPA from '../assets/Bpa.jpg'
 import { Link } from 'react-router-dom';
 
 function Home (){
@@ -54,11 +55,11 @@ window.addEventListener('resize',()=>{
         <p className="text-lg sm:text-xl mb-2">In Collaboration with</p>
         <div className="flex justify-center space-x-8">
           <img src={Tshirt} alt="Google Developer " className="h-12 sm:h-16 rounded-3xl" />
-          {/* <img src="/path-to-your-oscode-logo.png" alt="OS Code " className="h-12 sm:h-16" /> */}
+          <img src={BPA} alt="Bpa lab" className="h-12 sm:h-16 rounded-3xl" />
         </div>
         <h2 className={` ${isMobile?'mt-8':''} font-bold text-[#fca311] text-3xl text-center`}>
           <Typewriter
-            words={['HACKATHON', 'CODE CLASH', 'IDEATHON', 'CODE COLLAB', 'ENGINEERS EYE', 'ESPORTS']}
+            words={['HACKATHON', 'CODE CLASH', 'IDEA TANK', 'TECH MAZE', 'ENGINEERS EYE', 'ESPORTS']}
             loop={true}
             cursor
             cursorStyle='_'
@@ -70,7 +71,7 @@ window.addEventListener('resize',()=>{
       </div>
       <div className='flex flex-col justify-center'>
 
-          <a href="https://forms.gle/kuNMr3wjh1iHQzJEA" target='_blank'><button className="Glitch-button -mt-9">
+          <a href="https://forms.gle/7a35UkxrcgLNV8u3A" target='_blank'><button className="Glitch-button -mt-9">
             Get Register
         </button></a>
         <Link to="/combo">

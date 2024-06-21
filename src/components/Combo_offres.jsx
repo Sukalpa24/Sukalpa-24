@@ -8,19 +8,19 @@ const combooffer = [
         id:1,
         name : "Coding Combo offers",
         Register:"169",
-        anchor : ""
+        anchor : "https://forms.gle/V1pkdyhWuu3FfdLV8"
     },
     {
         id:2,
-        name : "Ideatank Combo offers",
+        name : "Idea Tank Combo offers",
         Register:"169",
-        anchor : ""
+        anchor : "https://forms.gle/V1pkdyhWuu3FfdLV8"
     },
     {
         id:3,
         name : "Hackthon Combo offers",
         Register:"199",
-        anchor : ""
+        anchor : "https://forms.gle/xwPEjLN9AJdSyaJQ8"
     },
 ]
 

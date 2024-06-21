@@ -7,10 +7,16 @@ import Sushma from '../assets/Coordinates/Sushma.jpg'
 import Raksha from '../assets/Coordinates/Raksha.jpg'
 import Imran from  '../assets/Coordinates/Imran.jpg'
 import Nasreen from  '../assets/Coordinates/Nasreentaj.jpg'
+import VGS from '../assets/Coordinates/VJS.jpg'
 
 const Team = () => {
   
   const Faculty = [
+    {
+      name: 'Dr. Veeragangadhara Swamy T.M',
+      role: 'Head of the Department,ISE Dept',
+      image: VGS, 
+    },
     {
       name: 'Imran Khan',
       role: 'Assistant Professor, ISE Dept',
@@ -21,6 +27,7 @@ const Team = () => {
       role: 'Assistant Professor, ISE Dept',
       image: Nasreen,
     },
+
   ];
 
   const members = [
