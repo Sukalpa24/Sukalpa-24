@@ -5,6 +5,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Tshirt from '../assets/Tshirt.jpg';
+import { Link } from 'react-router-dom';
 
 function Home (){
   const[isMobile,setisMobile] = useState(false);
@@ -35,7 +36,7 @@ window.addEventListener('resize',()=>{
   return (
     <div className="Home-background h-screen timebgg flex flex-col items-center justify-center text-white relative ">
   <div className="text-center ">
-  <p data-aos="fade-in" data-aos-delay={200} className={` text-lg ${isMobile?'mt-10':'-mt-10'} sm:text-2xl text-[#49e244] `}>STATE LEVEL TECHNICAL FEST</p>
+  <p data-aos="fade-in" data-aos-delay={200} className={` text-lg ${isMobile?'mt-20':'-mt-10'} sm:text-2xl text-[#49e244] `}>STATE LEVEL TECHNICAL FEST</p>
     <h1 data-aos="fade-in" className={` ${isMobile?'text-4xl':'text-7xl'} font-bold mt-3 `}>&lt; SUKALPA-24 /&gt;</h1>
     <div className="mt-5">
       <p className="text-lg sm:text-xl mb-4 font-semibold">Powered by</p>
@@ -66,12 +67,20 @@ window.addEventListener('resize',()=>{
           />
     </h2>
       </div>
-      <div>
+      <div className='flex flex-col justify-center'>
 
-      {/* <button type="submit" class="combo">Combo Offers</button>
-      <a href="https://forms.gle/kuNMr3wjh1iHQzJEA" target='_blank'><button className="Glitch-button -mt-9">
-        Get Register
-    </button></a> */}
+          <a href="https://forms.gle/kuNMr3wjh1iHQzJEA" target='_blank'><button className="Glitch-button -mt-9">
+            Get Register
+        </button></a>
+        {/* <Link to="/combo">
+      <button
+        type="submit"
+        className={`combo ${isMobile ? 'mt-5' : 'absolute top-48 right-56'} 
+          animate-scale animate-blink bg-blue-500 text-white font-bold py-2 px-4 rounded`}
+      >
+        Combo Offers
+      </button>
+    </Link> */}
       </div>
     </div>
   </div>
