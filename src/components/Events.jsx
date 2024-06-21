@@ -16,7 +16,7 @@ const data = [
   { 
       id: 1,
       title: "CODE CLASH",
-      price: "100",
+      price: "99",
       img: clash,
       description: "Code Beyond Limits: Innovate, Create, Elevate, Emphasize innovation in coding.",
       Rules : [
@@ -40,7 +40,7 @@ const data = [
       {
          id: 2,
          title: "HACKATHON",
-         price: "200",
+         price: "199",
          img: idea,
          description: "Hack the Future: Collaborate, Create, Conquer , Creativity to shape the future.",
          Rules : [
@@ -62,24 +62,23 @@ const data = [
          },
           { id: 3,
            title: "IDEA TANK",
-           price: "150",
+           price: "149",
            img: hack,
            description: "Ideas to Impact: Ignite, Innovate, Inspire , Journey from ideas to solutions." ,
            Rules : [
-            "Team Size: 2",
-            "•Registration Fee: 150 per team",
-            "•Event consists of 2 rounds",
-            "•Round 1- Idea Presentation ",
+            "Each team consists of two members",
+            // "Registration Fee: 150 per team",
+            "Event consists of 2 rounds.",
+            "Round 1- Idea Presentation. ",
             "Present your own ideas related to a field of your interest.",
-           " Time Duration: 6+2 mins",
-            "•Teams which are qualified in round 1 will be permitted to round 2.",
-          "  •Round 2- Pitch Pool",
+           " Time Duration: 6+2 mins.",
+            "Teams which are qualified in round 1 will be permitted to round 2.",
+          "  Round 2- Pitch Pool.",
             "Selected teams will be given a on spot problem statement, participants should find solutions and present their ideas.",
-            
-           " *Students from any year are eligible to participate",
-           " *Participation certificates will be provided ",
-            "*More detailed rules will be disclosed before the commencement of event.",
-            "*Judges decision will be final",
+           "Students from any year are eligible to participate.",
+           "Participation certificates will be provided.",
+            "More detailed rules will be disclosed before the commencement of event.",
+            "Judges decision will be final.",
           ],
           Coordinator1: "CHINMAIE",
           Coordinator1_ph : "+91-8747810019",
@@ -90,33 +89,33 @@ const data = [
           {
            id: 4,
            title: "Tech Maze",
-           price: "100",
+           price: "99",
            img: colab,
            description: "Emphasizes collaboration and elevating the coding experience through teamwork.",
            Rules : [ 
-              "1. Each team consists of two members.",
-              "2. Entrance fee is 100 rupees.",
-              "3. Systems will be provided ",
-              "4. The event consists of three rounds",
-              "5. Event Co-ordinatiors decision is final",
+              "Each team consists of two members.",
+              "Entrance fee is 100 rupees.",
+              "Systems will be provided.",
+              "The event consists of three rounds.",
+              "Event Co-ordinatiors decision is final.",
 
-              "Round One: Dark logic ",
+              "Round One: Dark logic .",
 
-              "- Duration: 30 minutes ",
-              "- Hide and seek with code ",
-              "- Only C language is allowed.",
+              "Duration: 30 minutes .",
+              "Hide and seek with code ",
+              "Only C language is allowed.",
               ,
-              "Round Two: Unify ",
+              "Round Two: Unify.",
 
-              "- C language is allowed ",
-              "- Duration: 30 minutes",
-              "- strength in team work ",
+              "C language is allowed .",
+              "Duration is 30 minutes.",
+              "strength in team work .",
 
-              "Round Three: Code Hunt",
+              "Round Three: Code Hunt.",
 
-              "- Decode the error field codes with pinch of code hunt",
-              "- ⁠Showcase yourself through your talent.",
-              "- Duration: 1 hour  ",
+              "Decode the error field codes with pinch of code hunt.",
+              "⁠Showcase yourself through your talent.",
+              "Duration: 1 hour.",
               "Ensure you adhere to these rules and format. Best of luck!",
             ],
           Coordinator1: "POORVI VH",
@@ -128,7 +127,7 @@ const data = [
           { 
           id: 5,
            title: "ENGINEERS EYE",
-            price: "100",
+            price: "99",
             img: eye,
             description: "Engineering Excellence: Vision, Precision, Innovative spirit of engineering.",
             Rules : [
@@ -150,7 +149,7 @@ const data = [
              {
                id: 6,
                title: "E-SPORTS",
-               price: "200",
+               price: "199",
                img: game,
                description: "Play to Win: Unleash Your Inner Champion , competitive spirit and excellence in gaming.",
                Rules : [
@@ -158,20 +157,20 @@ const data = [
 " Date: 1/07/2024",
 " Time: 12:00 - 5:00",
 " Team Type: Squad",
-" Map: All maps should be downloaded",
-" Hacks and Cheats: Prohibited",
-" Player Eligibility: Players must be pursuing an engineering degree and must provide their college USN and college details",
-" Disqualification: A player using hacks will lead to team disqualification",
-" Refunds: No refunds will be provided for disqualified teams or teams that quit in the middle of a match",
-" Support: Network and other support are not provided by the host",
-" Team Leader: Must provide team details with names and IDs",
+" Map: All maps should be downloaded.",
+" Hacks and Cheats are Prohibited.",
+" Player Eligibility: Players must be pursuing an engineering degree and must provide their college USN and college details.",
+" Disqualification: A player using hacks will lead to team disqualification.",
+" Refunds: No refunds will be provided for disqualified teams or teams that quit in the middle of a match.",
+" Support: Network and other support are not provided by the host.",
+" Team Leader: Must provide team details with names and IDs.",
 " Minimum Level for Entry: 35",
-" Team Changes: Changing team members must be informed to the host",
-" Team-Up: No teaming up between players is allowed",
-" Winner: Decided based on points",
-" Further Rules:* Will be provided before the match",
+" Team Changes: Changing team members must be informed to the host.",
+" Team-Up: No teaming up between players is allowed.",
+" Winner: Decided based on points.",
+" Further Rules:* Will be provided before the match.",
 
-"Entry Fee: 200/-",
+"Entry Fee: 199/-",
                ],
               Coordinator1: "DEEPAK B",
               Coordinator1_ph : "+91-7204662895",
@@ -232,7 +231,7 @@ window.addEventListener('resize',()=>{
 
   return (
     <div  className='p-10 flex flex-col justify-center items-center'>
-      
+
       <h2 className='text-5xl font-thin text-[#49e244] events '>Events</h2>
       <div  className='grid  gap-16 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10'>
         {data.map((res) => (
