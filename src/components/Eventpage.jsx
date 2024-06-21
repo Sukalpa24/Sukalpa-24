@@ -47,26 +47,24 @@ window.addEventListener('resize',()=>{
   }, [location.state]); 
 
   useEffect(()=>{
-    AOS.init({duration:0,startEvent: 'DOMContentLoaded'})
+    AOS.init({duration:1000})
 })
 
   return (
     <div className=' text-white  flex flex-col items-center text-center mt-10 p-6'>
       
     <div className=' rounded-lg p-5 text-center shadow-lg w-full max-w-3xl'>
-      <h2 data-aos="fade-in" data-aos-delay={0} className='text-5xl font-bold text-[#fca311]'>{data?.title ? data.title : 'Event'}</h2>
+      <h2 data-aos="zoom-in" data-aos-delay={0} className='text-5xl font-bold text-[#fca311]'>{data?.title ? data.title : 'Event'}</h2>
       <h3 data-aos="fade-out" className='text-3xl font-mono mt-5 text-green-400'>REGISTRATION FEE: &#x20B9;{data?.price?data.price:'__'}</h3>
       <a href={data?.form ?data.form:'__'} target='_blank'><button id="reg" className='text-white bg-green-400 p-3 rounded-xl m-10'>Register</button></a>
-      
-      
       
       <h3 data-aos="fade-right" data-aos-delay={0}  className='text-start text-xl mt-5 font-semibold'>RULES:</h3>
       <ul className='mt-5 list-disc list-inside text-start'>
         {
           data?.Rules?.map((res)=>(
-            <li className='mb-2'>
-            {res}
-         </li>
+            <li data-aos="fade-in" className='mb-2'>
+              {res}
+          </li>
           ))
         }
       </ul>

@@ -211,19 +211,11 @@ window.addEventListener('resize',()=>{
         {data.map((res) => (
           <div data-aos={`${isMobile?'fade-in':''}`}  className="cardContainer">
             <div   className="card w-[300px] h-[370px]">
-              <p className="city">{res?.title ? res.title :'Event name'}</p>
-              <p className="weather">Registration fee : &#x20B9;{res?.price ? res.price : '__'}</p>
+              <p data-aos="fade-in" className="city">{res?.title ? res.title :'Event name'}</p>
+              <p data-aos="fade-in" className="weather">Registration fee : &#x20B9;{res?.price ? res.price : '__'}</p>
               <img src={res?.img? res.img:'https://via.placeholder.com/150'} className={`temp w-4/12 ${res.id === 5 || res.id === 2 || res.id === 1 || res.id === 4 || res.id === 3 || res.id === 6 ? '' : 'invert'}`} />
-              <p className='text-[#c5c5c5] p-3 text-center'>
-                <Typewriter
-                  words={[`${res?.description?res.description:''}`]}
-                  loop={1}
-                  cursor
-                  cursorStyle='_'
-                  typeSpeed={0}
-                  deleteSpeed={0}
-                  delaySpeed={0}
-                />
+              <p data-aos="fade-in" className='text-[#c5c5c5] p-3 text-center'>
+                {res?.description?res.description:''}
               </p>
 
               <div className="minmaxContainer">
@@ -232,7 +224,7 @@ window.addEventListener('resize',()=>{
                     <span className="circle" aria-hidden="true">
                       <span className="icon arrow"></span>
                     </span>
-                    <span className="button-text" onClick={()=>Handlesubmit(res.id)}>Know More</span>
+                    <span data-aos="fade-in" className="button-text" onClick={()=>Handlesubmit(res.id)}>Know More</span>
                   </button>
                 </div>
               </div>
