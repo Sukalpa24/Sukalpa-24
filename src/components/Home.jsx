@@ -73,7 +73,7 @@ window.addEventListener('resize',()=>{
           <a href="https://forms.gle/kuNMr3wjh1iHQzJEA" target='_blank'><button className="Glitch-button -mt-9">
             Get Register
         </button></a>
-        <Link to="">
+        <Link to="/">
       <button
         type="submit"
         className={`combo ${isMobile ? '' : 'absolute top-48 right-56'} 
