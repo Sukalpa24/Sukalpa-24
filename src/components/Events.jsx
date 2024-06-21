@@ -87,7 +87,7 @@ const data = [
          },
           {
            id: 4,
-           title: "Ctrl + Alt + Create",
+           title: "Tech Maze",
            price: "100",
            img: colab,
            description: "Emphasizes collaboration and elevating the coding experience through teamwork.",
