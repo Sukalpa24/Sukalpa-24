@@ -60,7 +60,7 @@ const checkmobile =() =>{
   return (
     <div className=' shd_about bg-black'>
     <div className=' justify-center  items-center flex flex-col p-10'>
-        <h2 className=' text-5xl  font-bold text-blue-500 mb-5'>GLIMPSE of <span className='text-white'>SUKALPA</span> 2023</h2>
+        <h2 className=' text-5xl  font-bold text-blue-500 mb-5'>Board of Governors</h2>
     <div className="overflow-hidden w-10/12 ">
       <div
         className="flex space-x-4 rounded-lg p-5 shadow-inner shadow-black"
