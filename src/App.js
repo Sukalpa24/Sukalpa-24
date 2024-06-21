@@ -49,7 +49,7 @@ function App() {
         
        
                 <Route path="/eventpage/:id" element={<Eventpage/>}/>
-                {/* <Route path="/combo" element={<Combo_offres/>}/> */}
+                <Route path="/combo" element={<Combo_offres/>}/>
                 <Route path="events" element={<Events/>}/>
                 <Route path="*" element={<Error/>}/>
 

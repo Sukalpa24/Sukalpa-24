@@ -5,6 +5,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Tshirt from '../assets/Tshirt.jpg';
+import Combo from '../assets/Backgrounds/WhatsApp_Image_2024-06-21_at_11.10.43_ca0acab6-removebg-preview.png'
 import { Link } from 'react-router-dom';
 
 function Home (){
@@ -35,21 +36,21 @@ window.addEventListener('resize',()=>{
 })
   return (
     <div className="Home-background h-screen timebgg flex flex-col items-center justify-center text-white relative ">
-  <div className="text-center ">
-  <p data-aos="fade-in" data-aos-delay={200} className={` text-lg ${isMobile?'mt-10':'-mt-10'} sm:text-2xl text-[#49e244] `}>STATE LEVEL TECHNICAL FEST</p>
-    <h1 data-aos="fade-in" className={` ${isMobile?'text-4xl':'text-7xl'} font-bold mt-3 `}>&lt; SUKALPA-24 /&gt;</h1>
+  <div className={`text-center ${isMobile?'':''} `}>
+  <p data-aos="fade-in" data-aos-delay={200} className={` text-lg ${isMobile?'mt-28':'-mt-10'} sm:text-2xl text-[#49e244] `}>STATE LEVEL TECHNICAL FEST</p>
+    <h1 data-aos="fade-in" className={` ${isMobile?'text-[2.7rem]':'text-7xl'} font-bold mt-3 `}>&lt; SUKALPA-24 /&gt;</h1>
     <div className="mt-5">
       <p className="text-lg sm:text-xl mb-4 font-semibold">Powered by</p>
       <div className="flex justify-center space-x-8">
         <div className="text-center">
           
           <img src={GMU} alt="GMU Logo" className="w-14 rounded-full mx-auto" />
-          <p data-aos="fade-up" className="mt-2 text-xl font-bold">Information Science and Engineering </p>
+          <p data-aos="fade-up" className={`mt-2 ${isMobile?'text-lg':'text-xl'}  font-bold`}>Information Science and Engineering </p>
           <p data-aos="fade-up" className='font-semibold text-gray-300 text-2xl'>GM University</p>
         </div>
       </div>
       <div data-aos="fade-in" className={` ${isMobile?'':'-mt-5'}  p-10`}>
-        <h3 data-aos="zoom-in" className={`font-mono  text-xl mb-5`}>See you at GMU on 1st and 2nd of July (^_^)⁠</h3>
+        <h3 data-aos="zoom-in" className={`font-mono ${isMobile?'text-lg':'text-xl'}  mb-5`}>See you at GMU on 1st and 2nd of July (^_^)⁠</h3>
         <p className="text-lg sm:text-xl mb-2">In Collaboration with</p>
         <div className="flex justify-center space-x-8">
           <img src={Tshirt} alt="Google Developer " className="h-12 sm:h-16 rounded-3xl" />
@@ -72,15 +73,15 @@ window.addEventListener('resize',()=>{
           <a href="https://forms.gle/kuNMr3wjh1iHQzJEA" target='_blank'><button className="Glitch-button -mt-9">
             Get Register
         </button></a>
-        {/* <Link to="/combo">
+        <Link to="">
       <button
         type="submit"
-        className={`combo ${isMobile ? 'mt-5' : 'absolute top-48 right-56'} 
-          animate-scale animate-blink bg-blue-500 text-white font-bold py-2 px-4 rounded`}
+        className={`combo ${isMobile ? '' : 'absolute top-48 right-56'} 
+          animate-scale animate-blink  text-white font-bold py-2 px-4 rounded`}
       >
-        Combo Offers
+        <img className={` ${isMobile?'w-16':' w-40'}`} src={Combo} alt="" />
       </button>
-    </Link> */}
+    </Link>
       </div>
     </div>
   </div>

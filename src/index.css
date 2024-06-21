@@ -438,6 +438,37 @@ body{
   backdrop-filter: blur(10px); /* backdrop-blur-xl */
 }
 
-.combo{
-  animation:;
+.combo {
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  animation: scale 1.5s infinite, blink 1s infinite;
+}
+
+@media (max-width: 640px) { /* Tailwind's sm breakpoint */
+  .combo {
+    margin-top: 1.25rem; /* Tailwind's mt-5 */
+  }
+}
+
+@media (min-width: 641px) { /* Tailwind's sm breakpoint */
+  .combo {
+    /* position: absolute;
+    top: 12rem; 
+    right: 14rem;  */
+  }
+}
+
+
+@keyframes blink {
+  0%, 100% {
+    filter: drop-shadow(0 0 12px black);
+    
+    transform: scale(0.95);
+  }
+  50% {
+    filter: drop-shadow(1px 1px 20px red);
+    transform: scale(1.05);
+  }
 }
