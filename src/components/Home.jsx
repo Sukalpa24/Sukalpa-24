@@ -66,9 +66,13 @@ window.addEventListener('resize',()=>{
           />
     </h2>
       </div>
+      <div>
+
+      {/* <button type="submit" class="combo">Combo Offers</button>
       <a href="https://forms.gle/kuNMr3wjh1iHQzJEA" target='_blank'><button className="Glitch-button -mt-9">
         Get Register
-    </button></a>
+    </button></a> */}
+      </div>
     </div>
   </div>
 </div>

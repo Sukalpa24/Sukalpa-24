@@ -15,13 +15,14 @@ import { Element } from 'react-scroll'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Prizes from './components/Prizes';
 import Glimpse from './components/Glimpse';
+import Combo_offres from './components/Combo_offres';
 
 function App() {
     return (
         <div>
             <Router>
-
             <Navbar />
+            {/* <Combo_offres/> */}
             <Routes>
             <Route path="/" element={<>
             <Element name='home'>
@@ -48,6 +49,7 @@ function App() {
         
        
                 <Route path="/eventpage/:id" element={<Eventpage/>}/>
+                <Route path="/combo" element={<Combo_offres/>}/>
                 <Route path="events" element={<Events/>}/>
                 <Route path="*" element={<Error/>}/>
 

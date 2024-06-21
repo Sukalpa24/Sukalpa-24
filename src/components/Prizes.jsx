@@ -42,6 +42,9 @@ window.addEventListener('resize',()=>{
           <div data-aos="zoom-in" className={`${isMobile?'text-6xl font-bold':''}text-9xl font-bold text-green-500`}>₹ 30,000 </div>
         </div>
       </div>
+      <button className='btn_combo'>
+          <b>Fold me!</b>
+        </button>
     </div>
   </div>
   </div>
