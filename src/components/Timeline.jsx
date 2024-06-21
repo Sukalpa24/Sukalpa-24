@@ -43,14 +43,17 @@ window.addEventListener('resize',()=>{
           },{
             date:"1st July 2024",
             title:"Inaguration of Event",
-            description:"",
+            description:"Celebrating of beginning of SUKALPA-24",
+            table: [
+              { time: "09:00 am - 10:30 am", event: "An official Start to SUKALPA-24" },
+            ],
             color:"bg-purple-600",
             icon:"🪔"
           },
           {
             date: "01 July 2024",
             title: "Day 1: Let The Hackthon Begin",
-            description: "",
+            description: "A contest of strategy and wits.",
             table: [
               { time: "10:00 am", event: "Hackthon-Starts" },
             ],
@@ -73,7 +76,7 @@ window.addEventListener('resize',()=>{
           {
             date: "01 July 2024",
             title: "Day 1: E-Sports",
-            description: "Code Beyond Limits: Innovate, Create, Elevate , Emphasize innovation in coding.",
+            description: "Sprint to victory.",
             table: [
               { time: "12:00 pm - 05:00 pm", event: "BGMI" },
               { time: "12:30 pm - 03:30", event: "Free fire" },
@@ -84,7 +87,7 @@ window.addEventListener('resize',()=>{
           {
             date: "02 July 2024",
             title: "Day 2: Code Collab",
-            description: "",
+            description: "An exciting race to the top.",
             table: [
               {time:"09:30 am - 10:00 am",event:"Level 1 : Dark logic " },
               {time:"10:30 pm - 11:00 pm",event:"Level 2 : Unify" },
@@ -96,7 +99,7 @@ window.addEventListener('resize',()=>{
           {
             date: "02 July 2024",
             title: "Day 2: Ideathon ",
-            description: "",
+            description: "A battle for the innovative spirits.",
             table: [
               { time: "10:00am - 1:00pm", event: "Pitch on New world" },
             ],
@@ -106,7 +109,7 @@ window.addEventListener('resize',()=>{
           {
             date: "02 July 2024",
             title: "Day 2: Engineers Eye",
-            description: "",
+            description: "Unleash your inner champion.",
             table: [
               { time: "12:00pm - 04:00pm", event: "Collabarate with your teammate" },
             ],

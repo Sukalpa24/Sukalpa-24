@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import img from '../assets/GMU.jpg';
 import Shreyank from '../assets/Coordinates/Shreyank.jpg'
 import Sahana from '../assets/Coordinates/Sahana.jpg'
 import Chinmaie from '../assets/Coordinates/Chinmaie.jpg'

@@ -4,6 +4,7 @@ import GMU from '../assets/GMU.jpg';
 import { Typewriter } from 'react-simple-typewriter';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Tshirt from '../assets/Tshirt.jpg';
 
 function Home (){
   const[isMobile,setisMobile] = useState(false);
@@ -47,11 +48,11 @@ window.addEventListener('resize',()=>{
         </div>
       </div>
       <div data-aos="fade-in" className={` ${isMobile?'':'-mt-5'}  p-10`}>
-        <h3 data-aos="zoom-in" className={`font-mono  text-xl mb-5`}>See you at GMU on 1st and 2nd of July⁠</h3>
+        <h3 data-aos="zoom-in" className={`font-mono  text-xl mb-5`}>See you at GMU on 1st and 2nd of July (^_^)⁠</h3>
         <p className="text-lg sm:text-xl mb-2">In Collaboration with</p>
         <div className="flex justify-center space-x-8">
-          <img src="/path-to-your-google-logo.png" alt="Google Developer " className="h-12 sm:h-16" />
-          <img src="/path-to-your-oscode-logo.png" alt="OS Code " className="h-12 sm:h-16" />
+          <img src={Tshirt} alt="Google Developer " className="h-12 sm:h-16 rounded-3xl" />
+          {/* <img src="/path-to-your-oscode-logo.png" alt="OS Code " className="h-12 sm:h-16" /> */}
         </div>
         <h2 className={` ${isMobile?'mt-8':''} font-bold text-[#fca311] text-3xl text-center`}>
           <Typewriter
@@ -65,9 +66,9 @@ window.addEventListener('resize',()=>{
           />
     </h2>
       </div>
-      <button className="Glitch-button -mt-9">
+      <a href="https://forms.gle/kuNMr3wjh1iHQzJEA" target='_blank'><button className="Glitch-button -mt-9">
         Get Register
-    </button>
+    </button></a>
     </div>
   </div>
 </div>

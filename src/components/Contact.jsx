@@ -39,7 +39,7 @@ window.addEventListener('resize',()=>{
       <p className={`h-1 ${isMobile?'flex-row':''} bg-white w-full `}></p>
       <div className={`flex flex-col lg:flex-row items-center ${isMobile?'justify-center':'justify-between'} `}>
         <div className=" mt-10 lg:w-1/2 text-white">
-          <h1 className=''>GM Institue of Technology , Davangere</h1>
+          {/* <h1 className=''>GM Institue of Technology , Davangere</h1> */}
 
            <iframe
             className={`${isMobile?'flex-row rounded-e-full':'rounded-e-full'}`}
