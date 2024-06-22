@@ -47,7 +47,7 @@ window.addEventListener('resize',()=>{
   }, [location.state]); 
 
   useEffect(()=>{
-    AOS.init({duration:1000})
+    AOS.init({duration:0})
 })
 
   return (
@@ -62,7 +62,7 @@ window.addEventListener('resize',()=>{
       <ul className='mt-5 list-disc list-inside text-start'>
         {
           data?.Rules?.map((res)=>(
-            <li data-aos="fade-in" className='mb-2'>
+            <li className='mb-2'>
               {res}
           </li>
           ))

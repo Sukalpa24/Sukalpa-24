@@ -12,10 +12,11 @@ import About from './components/About';
 // import Sponsors from './components/Sponsors';
 import Contact from './components/Contact';
 import { Element } from 'react-scroll'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Prizes from './components/Prizes';
 import Glimpse from './components/Glimpse';
 import Combo_offres from './components/Combo_offres';
+
 
 function App() {
     return (

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState,useCallback } from 'react';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -32,10 +32,10 @@ function Navbar() {
           setisMobile(false)
         }
     }
-    const handlesubmit = (e) =>{
-      e.preventDefault()
-      navigate('/')
-    } 
+    const handlesubmit = useCallback((e) => {
+      e.preventDefault();
+      navigate('/');
+    }, [navigate]);
 
     const handleDropdownToggle = () =>{
        sethandlenavbar(!handlenavbar)

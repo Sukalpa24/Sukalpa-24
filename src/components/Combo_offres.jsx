@@ -13,13 +13,13 @@ const combooffer = [
     {
         id:2,
         name : "Idea Tank Combo offers",
-        Register:"169",
-        anchor : "https://forms.gle/V1pkdyhWuu3FfdLV8"
+        Register:"229",
+        anchor : "https://forms.gle/rb97ERTopFQLMWWL6"
     },
     {
         id:3,
         name : "Hackthon Combo offers",
-        Register:"199",
+        Register:"249",
         anchor : "https://forms.gle/xwPEjLN9AJdSyaJQ8"
     },
 ]
@@ -60,7 +60,7 @@ function Combo_offres() {
                     <h2 className='font-mono text-xl'>{res.name}</h2>
                     <h3 className='font-bold text-cyan-400'>Registration Fee : {res.Register}/-</h3>
                     <button className='bg-[#a78bfa] text-black font-semibold p-2  mt-5 rounded-xl'>
-                       <a href={res.anchor}></a> Get Register</button>
+                       <a href={res.anchor} target="_blank"> Get Register</a></button>
                 </div>
             ))
         }

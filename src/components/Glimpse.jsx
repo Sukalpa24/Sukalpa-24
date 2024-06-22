@@ -1,14 +1,14 @@
 import React, { useEffect, useRef, useState } from 'react';
-import g1 from '../assets/Events/g1.jpg'
-import g2 from '../assets/Events/g2.jpg'
-import g3 from '../assets/Events/g3.jpg'
-import g4 from '../assets/Events/g4.jpg'
+// import g1 from '../assets/Events/g1.jpg'
+// import g2 from '../assets/Events/g2.jpg'
+// import g3 from '../assets/Events/g3.jpg'
+// import g4 from '../assets/Events/g4.jpg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
 const images = [
-    g1,g2,g3,g4,
+    
 ]
 
 const Glimpse = () => {

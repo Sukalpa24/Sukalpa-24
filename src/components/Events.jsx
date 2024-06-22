@@ -47,7 +47,6 @@ const data = [
           "Each team consists of two members.",
           "Duration of hackthon : 24 hours.",
           "Type: Online.",
-          "Participation certificates will be provided.",
           "10 problem statement of different domains will be provided." ,
           "Each team should select one question of their own choice.",
           "Each team will be assigned one mentor. ",
@@ -69,13 +68,12 @@ const data = [
             "Each team consists of two members.",
             "Event consists of 2 rounds.",
             "Round 1 -> Idea Presentation. ",
-            "Present your own ideas related to a field of your interest.",
-           "Time Duration: 6+2 mins.",
+            "-->Present your own ideas related to a field of your interest.",
+           "-->Time Duration: 6+2 mins.",
             "Teams which are qualified in round 1 will be permitted to round 2.",
             "Round 2 -> Pitch Pool.",
-            "Selected teams will be given a on spot problem statement, participants should find solutions and present their ideas.",
+            "-->Selected teams will be given a on spot problem statement, participants should find solutions and present their ideas.",
            "Students from any year are eligible to participate.",
-           "Participation certificates will be provided.",
             "More detailed rules will be disclosed before the commencement of event.",
             "Judges decision will be final.",
           ],
@@ -87,29 +85,18 @@ const data = [
          },
           {
            id: 4,
-           title: "Tech Maze",
+           title: "TECH MAZE",
            price: "99",
            img: colab,
            description: "Emphasizes collaboration and elevating the coding experience through teamwork.",
            Rules : [ 
               "Each team consists of two members.",
-              // "Entrance fee is 100 rupees.",
               "Systems will be provided.",
               "The event consists of three rounds with elimination after each round.",
               "Event Co-ordinatiors decision is final.",
-              "Round One: Dark logic .",
-              "Duration: 30 minutes .",
-              "Hide and seek with code ",
-              "Only C language is allowed.",
-              "Round Two: Unify.",
-              "C language is allowed .",
-              "Duration is 30 minutes.",
-              "strength in team work .",
-              "Round Three: Code Hunt.",
-              "Decode the error field codes with pinch of code hunt.",
-              "⁠Showcase yourself through your talent.",
-              "Duration: 1 hour.",
-              "Ensure you adhere to these rules and format. Best of luck!",
+              "Round One: Dark logic -> Hide and seek with code (Only C language is allowed).",
+              "Round Two: Unify -> strength in team work (C language is allowed).",
+              "Round Three: Code Hunt -> Decode the error field codes with pinch of code hunt.",
             ],
           Coordinator1: "POORVI VH",
           Coordinator1_ph : "+91-7975106351",
@@ -145,30 +132,24 @@ const data = [
                img: game,
                description: "Play to Win: Unleash Your Inner Champion , competitive spirit and excellence in gaming.",
                Rules : [
-                
-" Date: 1/07/2024",
-" Time: 12:00 - 5:00",
 " Team Type: Squad",
 " Map: All maps should be downloaded.",
 " Hacks and Cheats are Prohibited.",
 " Player Eligibility: Player must have Minimum Level of 35",
 " Disqualification: A player using hacks will lead to team disqualification.",
-" Refunds: No refunds will be provided for disqualified teams or teams that quit in the middle of a match.",
+" No refunds will be provided for disqualified teams or teams that quit in the middle of a match.",
 " Support: Network and other support are not provided by the host.",
 " Team Leader: Must provide team details with names and IDs.",
-" Minimum Level for Entry: 35",
 " Team Changes: Changing team members must be informed to the host.",
-" Team-Up: No teaming up between players is allowed.",
+" No team up between players is allowed.",
 " Winner: Decided based on points.",
-" Further Rules:* Will be provided before the match.",
-
-"Entry Fee: 199/-",
+" Further Rules: Will be provided before the match.",
                ],
               Coordinator1: "DEEPAK B",
               Coordinator1_ph : "+91-7204662895",
               Coordinator2: "SRUJAN KS",
               Coordinator2_ph : "+91-7483183720",
-              form : "https://forms.gle/s5u4Aj8HoVY66Gtr9",
+              form : "https://forms.gle/35Qza6AMVpsnGU758",
              },
           ];
 
@@ -203,13 +184,6 @@ window.addEventListener('resize',()=>{
   checkmobile()
   setscreensize(window.innerWidth)
 })
-  useEffect(()=>{
-    AOS.init({duration:1000})
-})
-
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  });
 
   const handleLearnMore = () => {
     setIsOpen(true);

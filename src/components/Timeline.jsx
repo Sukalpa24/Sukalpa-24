@@ -101,7 +101,8 @@ window.addEventListener('resize',()=>{
             title: "Day 2: Idea Tank",
             description: "A battle for the innovative spirits.",
             table: [
-              { time: "10:00am - 2:00pm", event: "Pitch on New world" },
+              { time: "10:30am - 01:00pm", event: "Idea Presentation" },
+              { time: "02:00pm - 03:00pm", event: "Pitch on the new world" },
             ],
             color: "bg-green-600",
             icon: "💡"

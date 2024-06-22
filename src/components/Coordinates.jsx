@@ -26,7 +26,7 @@ const collection = [
   },
   {
     id: 2,
-    Title: 'IDEATHON',
+    Title: 'IDEA TANK',
     Name1: 'CHINMAIE C',
     Photo1: Chinmaie,
     Name2: 'Shravana GS',
@@ -37,15 +37,15 @@ const collection = [
     Title: 'HACKATHON',
     Name1: 'SHREYANK',
     Photo1: Shreyank,
-    Name2: 'Skanda',
+    Name2: 'SKANDA',
     Photo2: Skanda,
   },
   {
     id: 4,
-    Title: 'CODE COLLAB',
+    Title: 'TECH MAZE',
     Name1: 'POORVI VH',
     Photo1: Poorvi,
-    Name2: 'SUHAIL',
+    Name2: 'SUHAIL KHAN',
     Photo2: Suhail,
   },
   {
@@ -78,7 +78,7 @@ function Coordinates() {
     AOS.init({ duration: 1000 });
     checkmobile()
     setscreensize(window.innerWidth)
-  });
+  });
 
 const checkmobile =() =>{
   if(window.innerWidth <= 600){
@@ -88,7 +88,7 @@ const checkmobile =() =>{
   else{
     setisMobile(false)
     setscreensize(window.innerWidth)
-    }
+    }
 }
 
 window.addEventListener('resize',()=>{
@@ -114,7 +114,7 @@ window.addEventListener('resize',()=>{
 
   return (
     <div className={` ${isMobile?'py-16 px-1':'h-screen'}  bgg flex flex-col justify-center items-center z-[-1] ${isMobile?'':''}  `}>
-    <h2 className='text-[#49e244] text-3xl p-1 font-bold'>EVENT COORDINATERS </h2>
+    <h2 className='text-[#49e244] text-3xl p-1 font-bold'>EVENT CO-ORDINATERS </h2>
     <div className={` ${isMobile?'w-full':'w-10/12'}  min-h-96 flex flex-col justify-center items-center`}>
 
     {/* <h2 className='text-white text-5xl mb-14 font-bold border rounded-[300px] bg-opacity-60 bg-black px-20 py-4'>EVENT COORDINATES</h2> */}
