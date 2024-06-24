@@ -16,6 +16,9 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Prizes from './components/Prizes';
 import Glimpse from './components/Glimpse';
 import Combo_offres from './components/Combo_offres';
+// import Choices from './components/Choices';
+
+
 
 
 function App() {
@@ -23,7 +26,7 @@ function App() {
         <div>
             <Router>
             <Navbar />
-           
+            {/* <Choices/> */}
             <Routes>
             <Route path="/" element={<>
             <Element name='home'>

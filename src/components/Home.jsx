@@ -9,6 +9,45 @@ import Combo from '../assets/Backgrounds/WhatsApp_Image_2024-06-21_at_11.10.43_c
 import BPA from '../assets/Bpa.jpg'
 import { Link } from 'react-router-dom';
 
+const data = [
+  {
+    id:1,
+    name:"",
+    links : "https://gmu.ac.in/public/sukalpa24/"
+  },
+  {
+    id:1,
+    name:"codeclash",
+    links : "https://forms.gle/kdJaKnXpN66VHjLP7"
+  },
+  {
+    id:2,
+    name:"hackathon",
+    links : "https://forms.gle/Fp5Bu7gUFkf99ZnSA"
+  },
+  {
+    id:3,
+    name:"ideatank",
+    links : "https://forms.gle/iFL3JJxNFhYpsQ8D8"
+  },
+  {
+    id:4,
+    name:"techmaze",
+    links : "https://forms.gle/psYXAXjiwAaXVTsk6"
+  },
+  {
+    id:5,
+    name:"engineerseye",
+    links : "https://forms.gle/kxRxiEm5MLsTZh2N6"
+  },
+  {
+    id:6,
+    name:"esports",
+    links : "https://forms.gle/35Qza6AMVpsnGU758"
+  },
+
+]
+
 function Home (){
   const[isMobile,setisMobile] = useState(false);
 
@@ -31,6 +70,15 @@ const checkmobile =() =>{
     }
 }
 
+const handledropdown = (e) =>{
+    e.preventDefault();
+    const values = e.target.value
+    const clickeddata = data.find((res) => res.name === values) ;
+    if (clickeddata) {
+      window.open(clickeddata.links, '_blank');
+    }
+}
+ 
 window.addEventListener('resize',()=>{
   checkmobile()
   setscreensize(window.innerWidth)
@@ -71,9 +119,20 @@ window.addEventListener('resize',()=>{
       </div>
       <div className='flex flex-col justify-center'>
 
-          <a href="https://forms.gle/7a35UkxrcgLNV8u3A" target='_blank'><button className="Glitch-button -mt-9">
+          {/* <a href="https://forms.gle/7a35UkxrcgLNV8u3A" target='_blank'><button className="-mt-9">
             Get Register
-        </button></a>
+        </button></a> */}
+        <div>
+       <select name="" id=""  className='Glitch-button'  onChange={(e)=>handledropdown(e)}>
+            <option className='bg-[#0d0f16]' value="">GET REGISTER</option>
+            <option className='bg-[#0d0f16]' target="_blank" value="codeclash">CODE CLASH</option>
+            <option className='bg-[#0d0f16]' target="_blank" value="hackathon">HACKATHON</option>
+            <option className='bg-[#0d0f16]' target="_blank" value="ideatank">IDEA TANK</option>
+            <option className='bg-[#0d0f16]' target="_blank" value="techmaze">TECH MAZE</option>
+            <option className='bg-[#0d0f16]' target="_blank" value="engineerseye">ENGINEERS EYE</option>
+            <option className='bg-[#0d0f16]' target="_blank" value="esports">E-SPORTS</option>
+        </select> 
+      </div>
         <Link to="/combo">
       <button
         type="submit"
@@ -91,3 +150,5 @@ window.addEventListener('resize',()=>{
 };
 
 export default Home;
+
+
