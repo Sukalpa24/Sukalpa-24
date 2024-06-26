@@ -133,7 +133,7 @@ window.addEventListener('resize',()=>{
             <option className='bg-[#0d0f16]' target="_blank" value="esports">E-SPORTS</option>
         </select> 
       </div>
-        <Link to="/combo">
+        {/* <Link to="/combo">
       <button
         type="submit"
         className={`combo ${isMobile ? '' : 'absolute top-48 right-56'} 
@@ -141,7 +141,7 @@ window.addEventListener('resize',()=>{
       >
         <img className={` ${isMobile?'w-16':' w-40'}`} src={Combo} alt="" />
       </button>
-    </Link>
+    </Link> */}
       </div>
     </div>
   </div>

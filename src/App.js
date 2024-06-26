@@ -15,7 +15,7 @@ import { Element } from 'react-scroll'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Prizes from './components/Prizes';
 import Glimpse from './components/Glimpse';
-import Combo_offres from './components/Combo_offres';
+// import Combo_offres from './components/Combo_offres';
 // import Choices from './components/Choices';
 
 
@@ -53,7 +53,7 @@ function App() {
         
        
                 <Route path="/eventpage/:id" element={<Eventpage/>}/>
-                <Route path="/combo" element={<Combo_offres/>}/>
+                {/* <Route path="/combo" element={<Combo_offres/>}/> */}
                 <Route path="events" element={<Events/>}/>
                 <Route path="*" element={<Error/>}/>
 
